@@ -1,0 +1,82 @@
+.img-gifting-1 {
+    position: absolute;
+    border: solid 30px #fff;
+    background-color: #fff;
+    bottom: 87px;
+    left: 15%;
+}
+.img-gifting-2 {
+    position: absolute;
+    border: solid 30px #fff;
+    background-color: #fff;
+    bottom: 87px;
+    left: 62%;
+}
+.btn-gifting-1 {
+    text-decoration-color: #000;
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: #000;
+    pointer-events: none;
+    margin-left: 49px;
+    margin-top: 9px;
+    padding: 6px 30px 6px 30px;
+}
+.btn-gifting-2 {
+    background-color: #fff;
+    border-color: #000;
+    border-radius: 0px;
+    border-width: 2px;
+    text-decoration-color: #000;
+    pointer-events: none;
+    margin-left: 4.7rem;
+     margin-top: 9px;
+    padding: 6px 30px 6px 30px;
+}
+
+/** media-query start **/
+
+@media(max-width: 1024px){
+    .img-sz {
+        width: 44%;
+        margin-left: 40px;
+    }
+    .img-gifting-1 {
+        left: 10%;
+    }
+    .img-gifting-2 {
+        left: 55.6%;
+    }
+}
+@media(max-width: 768px){
+    .img-sz {
+        width: 44%;
+        margin-left: 30px;
+    }
+    .img-gifting-1 {
+        left: 5%;
+    }
+    .img-gifting-2 {
+        left: 49.6%;
+    }
+}
+@media(max-width: 360px){
+    .img-sz {
+        width: 93%;
+        margin-left: 12px;
+    }
+    .img-gifting-1 {
+        border: solid 5px #fff;
+        left: 11%;
+        bottom: 50%;
+    }
+   .img-gifting-2 {
+        position: absolute;
+        border: solid 5px #fff;
+        background-color: #fff;
+        bottom: 5%;
+        left: 3%;
+    }
+  
+}
+/** media-query end **/
