@@ -1,0 +1,41 @@
+.brand-img{
+	width: 40%;
+    margin-left: 7%;
+    margin-right: 4%;
+}
+.brand-img-1{
+	width: 40%;
+	margin-top: 3rem;
+	margin-left: 11%;
+	margin-right: 2%;
+}
+.brand-img-2{
+	width: 38%;
+}
+.footer-brand{
+	width: 98%;
+	margin: 0px 0px 100px 17px;
+}
+
+/** media-query start **/
+
+@media(max-width: 1024px){
+	.media-brand-img{
+		width: 100%;
+	}
+    .media-brand-img-1{
+    	width: 38%;
+    }
+   
+}
+@media(max-width: 1024px){
+	 .footer-brand {
+	        margin: 0px 0px 100px 8px;
+	    }
+}   
+@media(max-width: 360px){
+	 .footer-brand {
+	        margin: 0px 0px 100px 3px;
+	    }
+}   
+/** media-query end **/	
