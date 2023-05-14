@@ -1,0 +1,121 @@
+.bg-clr{
+	background-color: #f8f9fa;
+	padding-bottom: 7rem;
+	padding-top: 1rem;
+}
+.pos-rel-sec {
+    position: relative;
+}
+.img-sz{
+   width: 45%;
+    margin-left: 49px;
+    margin-top: 50px;
+}
+.btn-clr-1{
+  
+    text-decoration-color: #000;
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: #000;
+    pointer-events: none;
+    margin-left:49px;
+}
+.btn-clr-2{
+    background-color: #fff;
+    border-color: #000;
+    border-radius: 0px;
+    border-width: 2px;
+    text-decoration-color: #000;
+    pointer-events: none;
+    margin-left: 4.7rem;
+}
+.btn-clr-1:hover{
+	background-color: #000;
+}
+.img-text-1{
+    position: absolute;
+    border:solid 30px #fff;
+    background-color: #fff;
+    bottom: 87px;
+    left: 16%;
+}
+    .img-text-2{
+    position: absolute;
+    border:solid 30px #fff;
+    background-color: #fff;
+    bottom: 87px;
+    left: 62.5%;
+}
+
+/** media-query start **/
+
+@media(max-width: 1024px){
+    .img-sz {
+        width: 44%;
+        margin-left: 40px;
+    }
+    .img-text-1 {
+        left: 11.5%;
+    }
+    .img-text-2 {
+        left: 57%;
+    }
+    
+}
+@media(max-width: 768px){
+    .img-sz {
+        width: 44%;
+        margin-left: 29px;
+    }
+    .img-text-1{
+        position: absolute;
+        border:solid 30px #fff;
+        background-color: #fff;
+        bottom: 87px;
+        left: 6%;
+    }
+    .img-text-2{
+        position: absolute;
+        border:solid 30px #fff;
+        background-color: #fff;
+        bottom: 87px;
+        left: 50.5%;
+    }
+    .bg-clr {
+    padding-bottom: 18rem;
+}
+
+}
+@media(max-width: 360px){
+    .bg-clr {
+        padding-bottom: 4rem;
+    }
+    .img-sz {
+        width: 93%;
+        margin-left: 13px;
+        margin-bottom: 31%;
+    }
+    
+     .img-text-1{
+        position: absolute;
+        border:solid 15px #fff;
+        background-color: #fff;
+        bottom: 50%;
+        left: 16%;    
+    }
+   .media-watch-fs{
+        font-size: 28px;
+    }
+   .media-watch-fs1{
+        font-size: 15px;
+    }
+    .img-text-2{
+        position: absolute;
+        border:solid 15px #fff;
+        background-color: #fff;
+        bottom: 5%;
+        left: 9.5%;
+    }
+}
+/** media-query end **/
+
